@@ -15,5 +15,5 @@ Creating new csv containg COCONUT data. 'MW': db_mw, 'logP':db_logP, 'Smiles': d
  
  Creating fingerprints for COCOFINAL.csv and ZINCFINAL.csv using 
 -   Radius 2, lenght 2048
--   fp = AllChem.GetMorganFingerprint(mol, 2, nBits=2048)
--   fp.GetOnBits()
+-   fp = Chem.GetMorganFingerprintAsBitVect(molecule, 2, nBits=2048, bitInfo=bitinfo)
+-   list(fp.GetOnBits())) bitinfo
