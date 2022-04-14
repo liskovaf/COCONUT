@@ -17,3 +17,4 @@ Creating new csv containg COCONUT data. 'MW': db_mw, 'logP':db_logP, 'Smiles': d
 -   Radius 2, lenght 2048
 -   fp = Chem.GetMorganFingerprintAsBitVect(molecule, 2, nBits=2048, bitInfo=bitinfo)
 -   list(fp.GetOnBits())) bitinfo
+-   Saving ECFP to ZINCECFP.csv
