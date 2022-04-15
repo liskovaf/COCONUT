@@ -18,3 +18,5 @@ Creating new csv containg COCONUT data. 'MW': db_mw, 'logP':db_logP, 'Smiles': d
 -   fp = Chem.GetMorganFingerprintAsBitVect(molecule, 2, nBits=2048, bitInfo=bitinfo)
 -   list(fp.GetOnBits())) bitinfo
 -   Saving ECFP to ZINCECFP.csv
+
+UPDATE: **ECFP_15_04.ipynb**: added: ECFP of coco data - COCOEFCP.csv, deleted bitinfo (even in zincecfp.csv),  left just ECFP and bitset 
