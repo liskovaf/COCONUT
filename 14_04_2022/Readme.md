@@ -19,4 +19,7 @@ Creating new csv containg COCONUT data. 'MW': db_mw, 'logP':db_logP, 'Smiles': d
 -   list(fp.GetOnBits())) bitinfo
 -   Saving ECFP to ZINCECFP.csv
 
-UPDATE: **ECFP_15_04.ipynb**: added: ECFP of coco data - COCOEFCP.csv, deleted bitinfo (even in zincecfp.csv),  left just ECFP and bitset 
+UPDATE: 
+**ECFP_15_04.ipynb**: 
+Added: ECFP of coco data - COCOEFCP.csv
+Deleted bitinfo (even in zincecfp.csv),  left just ECFP and bitset 
