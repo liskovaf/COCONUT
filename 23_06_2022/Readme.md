@@ -10,7 +10,8 @@
  - Plotting a graph, these graphs are on display in PDF in folder 23_06_2022/images/RFT.pdf
 
 
-In the jupyter notebook 23_06themostfrequentfragment.ipynb I analyzed the most frequented combinations of fragments and also look at the Bits representing these fragments. 
+*23_06themostfrequentfragment.ipynb*
+- In the jupyter notebook 23_06themostfrequentfragment.ipynb I analyzed the most frequented combinations of fragments and also look at the Bits representing   these fragments. 
 
 
 
