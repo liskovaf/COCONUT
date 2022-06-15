@@ -1,6 +1,6 @@
 
  ## Counting Relative feature tightness against a PMI interrelation profile
- In this folder you can find a jupyter notebooks, where I count Relative feature tightness against a PMI interrelation profile. I have already splitted the dataset into 10 part. Therefore, for the train part using 90% of dataset and for the test part 10% of dataset. Repeating this process described below 10 times, using different 10% of dataset.
+ In this folder you can find a jupyter notebooks, where I count Relative feature tightness against a PMI interrelation profile. I have already splitted the dataset into 10 part. Therefore, for the train part using 90% of dataset and for the test part 10% of dataset. Repeating this process described below 10 times, using different 10% of dataset. The results are on display in RFT.pdf in folder 23_06_2022/images/RFT.pdf.
  
  *Process of counting RFT:*
  - Making feature pointwise mutual information profiles
