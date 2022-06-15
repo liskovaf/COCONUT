@@ -1,2 +1,2 @@
-First graph RFT 0 means that for the test part was used the first 1/10 of the dataset.
-In analogous way graph RFT 1 means that for the test part the 2/10 of dataset was used and RFT 2 the 3/10 of the dataset ...
+- *First graph RFT 0 means that for the test part was used the first 1/10 of the dataset*
+- *In analogous way graph RFT 1 means that for the test part the 2/10 of dataset was used and RFT 2 the 3/10 of the dataset ...*
