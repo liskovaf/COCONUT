@@ -1,3 +1,3 @@
 ### Updated previous jupyter noteboks: 
-- added ROC curve
-- you can find result images in the file images
+- Added ROC curve
+- You can find result images of ROC curve in the file: images
