@@ -1,1 +1,3 @@
-
+- In this folder you can find preproccesing of COCONUT and ZINC fragments
+- Creating coocurrence profiles of COCONUT and ZINC fragments
+- Basic analysis of those
