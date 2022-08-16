@@ -1,6 +1,5 @@
 - Generated random dataset of COCONUT and ZINC
 
-- Created individual coocureneces profiles of 10 subsets
 - firstly, shuffled the whole dataframe and then splitted into 10 equal parts
 - by using following:
 - suppl_csv = suppl_csv.sample(frac=1).reset_index(drop=True)
