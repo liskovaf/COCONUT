@@ -3,4 +3,4 @@
 
 - downloaded COCONUT database from https://coconut.naturalproducts.net/download in SDF format
 - made a dataframe with molecular weights and logP values of COCONUT data
-- conducted basic analasis of COCONUT data: created histogram of logP and molecular weights values
+- conducted basic analasis of COCONUT data: created graphs of logP and molecular weights values
