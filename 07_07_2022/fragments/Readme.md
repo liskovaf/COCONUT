@@ -1,3 +1,3 @@
-- In this folder you can find creating preproccesing of COCONUT and ZINC fragments using function: fip.chem.rdmol2morgan_feature_smiles
+- In this folder you can find creating of COCONUT and ZINC fragments using function: fip.chem.rdmol2morgan_feature_smiles
 - Creating coocurrence profiles of COCONUT and ZINC fragments
 - Basic analysis of those
