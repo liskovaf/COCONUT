@@ -31,7 +31,7 @@ Feature interrelation profiling of natural products and comerically available co
 - UPDATE: ECFP_15_04.ipynb: Added: ECFP of coco data - COCOEFCP.csv Deleted bitinfo (even in zincecfp.csv), left just ECFP and bitset
 
 ## 20_04_2022
-**18_04heavyatoms.ipynb**
+**18_04heavyatoms.ipynb:**
 - Firstly, used: l.GetNumHeavyAtoms() to get the number of heavy atoms in molecule
 - Made boxplot and basic statistics using seaborn library and .describe()
 - Both of these made for ZINC and COCONUT data
@@ -47,14 +47,17 @@ Feature interrelation profiling of natural products and comerically available co
 
 ## 23_06_2022
 **Counting Relative feature tightness against a pKLD(COCONUT/ZINC) interrelation profile**
+
 - In this folder you can find a jupyter notebooks(23_06relative_feature_tightness[0-9]), where I count Relative feature tightness against a pKLD interrelation profile. - I have already splitted the dataset into 10 part. Therefore, for the train part using 90% of dataset and for the test part 10% of dataset.
 - Repeating this process described below 10 times, using different 10% of dataset. The results are on display in RFT.pdf in folder 23_06_2022/images/RFT.pdf.
+
 **Process of assigning RFT:**
 - Making feature pointwise KL divergence profile between COCONUT and ZINC
 - Sampling structures from COCONUT and ZINC datasets
 - Relative feature tightness against a pKDL interrelation profile
 - Plotting a graph, these graphs are on display in PDF in folder 23_06_2022/images/RFT.pdf
-**23_06themostfrequentfragment.ipynb**
+- 
+**23_06themostfrequentfragment.ipynb:**
 - In the jupyter notebook 23_06themostfrequentfragment.ipynb I analyzed the most frequented combinations of fragments and also look at the Bits representing these fragments.
 
 ## 07_07_2022
