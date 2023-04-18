@@ -14,7 +14,8 @@ Feature interrelation profiling of natural products and comerically available co
 - zinc_analysis1.ipynb Analysing ZINC data
 
 ## 14_04_2022
-**Removing duplicates, creation csv to easily acces the data**
+**Removing duplicates, creation of csv to easily acces the data**
+
 **ZINC_analysis_07-04.ipynb:**
 - Removing duplicates across sampled ZINC substances, exactly 10 substances with identical first INCHIKEY part.
 - Creating new csv with ZINC substances, containing Zinc_id, Smiles, MW, logP, Inchi(Inchi) and Inchikey first part (Inchi_s). Naming it ZINCFINAL.csv (379 012) substances.
@@ -31,9 +32,9 @@ Feature interrelation profiling of natural products and comerically available co
 
 ## 20_04_2022
 **18_04heavyatoms.ipynb**
-- firstly, used: l.GetNumHeavyAtoms() to get the number of heavy atoms in molecule
-- made boxplot and basic statistics using seaborn library and .describe()
-- both of these made for ZINC and COCONUT data
+- Firstly, used: l.GetNumHeavyAtoms() to get the number of heavy atoms in molecule
+- Made boxplot and basic statistics using seaborn library and .describe()
+- Both of these made for ZINC and COCONUT data
 - For COCONUT data getting: mean 34.161340
 - For ZINC data getting: mean 28.009868
 
@@ -46,7 +47,7 @@ Feature interrelation profiling of natural products and comerically available co
 
 ## 23_06_2022
 **Counting Relative feature tightness against a pKLD(COCONUT/ZINC) interrelation profile**
-- In this folder you can find a jupyter notebooks(23_06relative_feature_tightness[0-9]), where I count Relative feature tightness against a PKLD interrelation profile. - I have already splitted the dataset into 10 part. Therefore, for the train part using 90% of dataset and for the test part 10% of dataset.
+- In this folder you can find a jupyter notebooks(23_06relative_feature_tightness[0-9]), where I count Relative feature tightness against a pKLD interrelation profile. - I have already splitted the dataset into 10 part. Therefore, for the train part using 90% of dataset and for the test part 10% of dataset.
 - Repeating this process described below 10 times, using different 10% of dataset. The results are on display in RFT.pdf in folder 23_06_2022/images/RFT.pdf.
 **Process of assigning RFT:**
 - Making feature pointwise KL divergence profile between COCONUT and ZINC
