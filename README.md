@@ -26,7 +26,8 @@ Feature interrelation profiling of natural products and comerically available co
 
 
 **ECFP_11_04.ipynb:**
-- Creating fingerprints for COCOFINAL.csv and ZINCFINAL.csv using radius 2, lenght 2048 fp = Chem.GetMorganFingerprintAsBitVect(molecule, 2, nBits=2048, bitInfo=bitinfo), list(fp.GetOnBits())) bitinfo
+- Creating fingerprints for COCOFINAL.csv and ZINCFINAL.csv using radius 2, lenght 2048
+- fp = Chem.GetMorganFingerprintAsBitVect(molecule, 2, nBits=2048, bitInfo=bitinfo), list(fp.GetOnBits())) bitinfo
 - Saving ECFP to ZINCECFP.csv
 - UPDATE: ECFP_15_04.ipynb: Added: ECFP of coco data - COCOEFCP.csv Deleted bitinfo (even in zincecfp.csv), left just ECFP and bitset
 
@@ -40,7 +41,8 @@ Feature interrelation profiling of natural products and comerically available co
 
 ## 19-05-2022
 - Generated random dataset of COCONUT and ZINC:
-- Firstly, shuffled the whole dataframe and then splitted into 10 equal parts by using following: suppl_csv = suppl_csv.sample(frac=1).reset_index(drop=True), df_split = np.array_split(suppl_csv, 10)
+- Firstly, shuffled the whole dataframe and then splitted into 10 equal parts by using following: 
+- suppl_csv = suppl_csv.sample(frac=1).reset_index(drop=True), df_split = np.array_split(suppl_csv, 10)
 - Reaching the subsets by: df_split[0] or df_split[1] etc.
 - Performed basis analysis of COCONUT and ZINC data
 - Compared these profiles
