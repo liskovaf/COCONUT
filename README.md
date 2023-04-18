@@ -1,8 +1,5 @@
 # Feature interrelation profiling 
 Feature interrelation profiling of natural products and comerically available compounds using COCONUT and ZINC dataset
-# Workflow of this work: 
-![cross-validace (2)](https://user-images.githubusercontent.com/61705542/231712897-7471c915-236a-4f48-afe1-d7f68d0d15bb.svg)
-
 # Step by step
 ## 01_11_2021
 Coconut database analysis from sdf file 
@@ -79,5 +76,8 @@ Looking at the most frequent fragments in COCONUT dataset compared to ZINC datas
 
 ## 28_03_2023
 Adding 10 RFT profiles into one graph, adding visually nicer MW and log P graphs, looking at the most frequent fragments in COCONUT and ZINC dataset
+
+# Workflow of this work: 
+![cross-validace (2)](https://user-images.githubusercontent.com/61705542/231712897-7471c915-236a-4f48-afe1-d7f68d0d15bb.svg)
 
 
