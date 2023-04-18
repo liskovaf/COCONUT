@@ -3,9 +3,9 @@ Feature interrelation profiling of natural products and comerically available co
 # Step by step
 ## 01_11_2021
 **Coconut database analysis from sdf file**
-- downloaded COCONUT database from https://coconut.naturalproducts.net/download in SDF format
-- made a dataframe with molecular weights and logP values of COCONUT data
-- conducted basic analasis of COCONUT data: created graphs of logP and molecular weights values
+- Downloaded COCONUT database from https://coconut.naturalproducts.net/download in SDF format
+- Made a dataframe with molecular weights and logP values of COCONUT data
+- Conducted basic analasis of COCONUT data: created graphs of log P and molecular weight values
 
 ## 10_11_2021
 **ZINC sampling**
@@ -18,9 +18,12 @@ Feature interrelation profiling of natural products and comerically available co
 **ZINC_analysis_07-04.ipynb:**
 - Removing duplicates across sampled ZINC substances, exactly 10 substances with identical first INCHIKEY part.
 - Creating new csv with ZINC substances, containing Zinc_id, Smiles, MW, logP, Inchi(Inchi) and Inchikey first part (Inchi_s). Naming it ZINCFINAL.csv (379 012) substances.
+
 **COCO_to_CSV.ipynb:**
 - Creating new csv containg COCONUT data. 'MW': db_mw, 'logP':db_logP, 'Smiles': db_smiles, 'Inchi': db_inchikey, 'coconut_id': db_COCONUT_id. Naming csv COCOALL.csv. (405 000 substances).
 - Then deleting approx. 20 000 duplicates by inchi first part getting 386 297 substances. Naming the csv COCOFINAl.csv.
+
+
 **ECFP_11_04.ipynb:**
 - Creating fingerprints for COCOFINAL.csv and ZINCFINAL.csv using radius 2, lenght 2048 fp = Chem.GetMorganFingerprintAsBitVect(molecule, 2, nBits=2048, bitInfo=bitinfo), list(fp.GetOnBits())) bitinfo
 - Saving ECFP to ZINCECFP.csv
@@ -37,7 +40,7 @@ Feature interrelation profiling of natural products and comerically available co
 ## 19-05-2022
 - Generated random dataset of COCONUT and ZINC:
 - Firstly, shuffled the whole dataframe and then splitted into 10 equal parts by using following: suppl_csv = suppl_csv.sample(frac=1).reset_index(drop=True), df_split = np.array_split(suppl_csv, 10)
-- reaching the subsets by: df_split[0] or df_split[1] etc.
+- Reaching the subsets by: df_split[0] or df_split[1] etc.
 - Performed basis analysis of COCONUT and ZINC data
 - Compared these profiles
 
