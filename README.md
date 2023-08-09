@@ -1,5 +1,5 @@
 # Feature interrelation profiling 
-My diploma thesis work: feature interrelation profiling of natural products and comerically available compounds using COCONUT and ZINC dataset. 
+Feature interrelation profiling of natural products and comerically available compounds using COCONUT and ZINC dataset. 
 # Step by step
 ## 01_11_2021
 **Coconut database analysis from sdf file**
