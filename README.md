@@ -1,8 +1,14 @@
 # Feature interrelation profiling 
-The aim of this work was to adapt the feature interrelation profiling methodology for 
-application on natural products (COCONUT dataset) and commercially available compounds(ZINC dataset), to quantitatively 
-describe their substructure interrelation differences and use these differences to estimate the 
-NP-likeness of chemical structure.
+The feature interrelation profiling (FIP) methodology was used to examine 
+databases of natural products and commercially available compounds. The COCONUT 
+database of NPs was selected for this analysis and the ZINC database was used to 
+compile a reference dataset of commercially available compounds. The first step involved 
+preprocessing of the COCONUT dataset and sampling similar structures among commercially 
+available compounds from the ZINC database. The selected commercially available 
+compounds were subsequently compared with NPs. The ECFPs and ECFP-like fragments 
+were computed for the compounds. Finally, the FIP methodology was applied to the data to 
+quantitatively determine the differences in feature combinations between NPs and generic 
+commercially available compounds.
 
 # Step by step
 ## 01_11_2021
@@ -84,7 +90,7 @@ Adding 10 RFT profiles into one graph, adding visually nicer MW and log P graphs
 # Workflow of this work: 
 ![cross-validace (2)](https://user-images.githubusercontent.com/61705542/231712897-7471c915-236a-4f48-afe1-d7f68d0d15bb.svg)
 
-# Conlusion
+# Conclusion
 In this work, the feature interrelation profiling methodology was 
 used to quantitatively analyze the substructure interrelation differences between natural 
 products and generic commercially available compounds. The analysis revealed a notable 
