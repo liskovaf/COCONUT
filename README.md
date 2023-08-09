@@ -1,5 +1,9 @@
 # Feature interrelation profiling 
-Feature interrelation profiling of natural products and comerically available compounds using COCONUT and ZINC dataset. 
+The aim of this work was to adapt the feature interrelation profiling methodology for 
+application on natural products (COCONUT dataset) and commercially available compounds(ZINC dataset), to quantitatively 
+describe their substructure interrelation differences and use these differences to estimate the 
+NP-likeness of chemical structure.
+
 # Step by step
 ## 01_11_2021
 **Coconut database analysis from sdf file**
@@ -79,5 +83,14 @@ Adding 10 RFT profiles into one graph, adding visually nicer MW and log P graphs
 
 # Workflow of this work: 
 ![cross-validace (2)](https://user-images.githubusercontent.com/61705542/231712897-7471c915-236a-4f48-afe1-d7f68d0d15bb.svg)
+
+# Conlusion
+In this work, the feature interrelation profiling methodology was 
+used to quantitatively analyze the substructure interrelation differences between natural 
+products and generic commercially available compounds. The analysis revealed a notable 
+difference in feature pair interrelations between natural products and commercially available 
+compounds that could be effectively used to identify natural products and natural product-like 
+substances. This approach is fully transparent and generic. Furthermore, it does not rely on 
+any heuristics or specific models, while matching or exceeding their reported performance.
 
 
